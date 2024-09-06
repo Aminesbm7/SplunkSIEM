@@ -60,7 +60,9 @@ First in our powershell, we need to set the execution policy bypass for the curr
 
 
 To install Atomic Red Team atomics, we just need to copy these 2 commands to our powershell, we need to disable the antivirus before downloading the Atomic Red Team tests.
+
 Command 1: IEX (IWR 'https://raw.githubusercontent.com/redcanaryco/invoke-atomicredteam/master/install-atomicredteam.ps1' -UseBasicParsing);
+
 Command 2: Install-AtomicRedTeam -getAtomics
 
 For the question, just hit 'Y'.
@@ -72,6 +74,7 @@ Once its downloaded, we should see this folders in the "Program Files\AtomicRedT
 
 
 Now to test one atomic, we can go to this site and check wich one we want to test: https://attack.mitre.org/
+
 For example, im going to test the "T1136.001", it creates a local user and it adds to administrator group.
 
 ![imatge](/images/18.png)
