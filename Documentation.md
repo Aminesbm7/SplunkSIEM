@@ -98,6 +98,12 @@ If we go back to Splunk, and filter by that username we can see that a username 
 
 ![imatge](/images/22.png)
 
+
 We can also find the part where the net user command has been executed to create the user:
 
 ![imatge](/images/23.png)
+
+
+***This project demonstrates the effectiveness of Splunk in monitoring security events clients and the value of using Atomic Red Team for realistic attack simulations. By integrating these tools, we can significantly enhance our threat detection and response capabilities. Moving forward, continuous testing and tuning of our detection mechanisms are crucial to staying ahead of evolving threats.***
+
+Amine Sbaay
